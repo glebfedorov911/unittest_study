@@ -2,13 +2,18 @@ import requests
 
 from functools import wraps
 from typing import Callable
-import sys
 import logging
+
 
 TIMEOUT_EXCEPTION = "Time has been limit reached"
 CONNECTION_EXCEPTION = "Connection hang out"
 BAD_REQUEST_EXCEPTION = "Bad request"
-INTERNAL_SERVER_EXCEPTION = "Internal Server Error"
+
+EXCEPTION_MAP = {
+    requests.exceptions.Timeout: TIMEOUT_EXCEPTION,
+    requests.exceptions.ConnectionError: CONNECTION_EXCEPTION,
+    requests.exceptions.HTTPError: BAD_REQUEST_EXCEPTION,
+}
 
 class InterestFactException(Exception):
     ...
@@ -36,11 +41,6 @@ def log_and_handle_errors(func: Callable):
         try:
             return func(*args, **kwargs)
         except Exception as e:
-            exc_type, exc_value, _ = sys.exc_info()
-
-            if exc_type:
-                logger.error(f"Ошибка: {exc_value}")
-
             logger.exception(f"Исключение в функции {func.__name__}: {e}")
             raise e
     
@@ -53,24 +53,14 @@ def get_interest_fact() -> str:
     try:
         response = requests.get(url, timeout=timeout)
         response.raise_for_status()
-    except requests.exceptions.Timeout:
-        raise InterestFactException(TIMEOUT_EXCEPTION)
-    except requests.exceptions.ConnectionError:
-        raise InterestFactException(CONNECTION_EXCEPTION)
-    except requests.exceptions.HTTPError:
-        raise InterestFactException(BAD_REQUEST_EXCEPTION)
-    else:
-        return response.text
+    except tuple(EXCEPTION_MAP.keys()) as e:
+        raise InterestFactException(EXCEPTION_MAP[type(e)])
+
+    return response.text
 
 @log_and_handle_errors
 def count_word_in_interest_fact(word: str) -> int:
-    try:
-        word = word.lower()
-        interest_fact = get_interest_fact()
-        interest_fact = ' '.join([i.lower() for i in interest_fact.split(" ")])
-        
-        return interest_fact.count(word)
-    except InterestFactException as e:
-        raise e
-    except Exception as e:
-        raise InterestFactException(INTERNAL_SERVER_EXCEPTION)
+    word = word.lower()
+    interest_fact = get_interest_fact().lower()
+    
+    return interest_fact.split().count(word)

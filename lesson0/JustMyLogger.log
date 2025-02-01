@@ -3331,3 +3331,771 @@ Traceback (most recent call last):
   File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
     raise effect
 main.InterestFactException: Time has been limit reached
+2025-02-01 14:19:21,517 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:19:21,530 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:19:21,532 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:19:21,532 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:19:21,532 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:19:21,532 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:19:21,533 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:19:21,533 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:19:58,108 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:19:58,108 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:19:58,110 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:19:58,110 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:19:58,110 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:19:58,110 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:19:58,111 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:19:58,111 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:20:22,899 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:20:22,899 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:20:22,900 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:20:22,900 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:20:22,901 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:20:22,901 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:20:22,901 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:20:22,901 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:20:29,777 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:20:29,777 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:20:29,778 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:20:29,778 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:20:29,779 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:20:29,779 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:20:29,780 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:20:29,780 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:20:55,062 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:20:55,063 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:20:55,064 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:20:55,064 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:20:55,065 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:20:55,065 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:20:55,065 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:20:55,065 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:21:10,720 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:21:10,720 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:21:10,721 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:21:10,721 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:21:10,722 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:21:10,722 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:21:10,722 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:21:10,722 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 74, in count_word_in_interest_fact
+    raise e
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 69, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:26:53,813 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:26:53,813 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:26:53,815 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:28:09,208 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:28:09,208 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:28:09,209 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:28:09,210 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:28:09,210 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:28:09,210 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:28:09,210 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:28:09,210 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:28:10,346 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:28:10,346 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:28:10,346 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:28:10,347 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:28:10,347 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:28:10,347 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:28:10,347 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:28:10,348 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
+2025-02-01 14:28:11,151 - JustMyLogger - ERROR - Ошибка: Time has been limit reached
+2025-02-01 14:28:11,151 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Time has been limit reached
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Time has been limit reached
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Ошибка: Connection hang out
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Connection hang out
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Connection hang out
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Ошибка: Bad request
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Bad request
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Bad request
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Ошибка: Internal Server Error
+2025-02-01 14:28:11,153 - JustMyLogger - ERROR - Исключение в функции count_word_in_interest_fact: Internal Server Error
+Traceback (most recent call last):
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 37, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\_.programming\unittest_study\lesson0\main.py", line 68, in count_word_in_interest_fact
+    interest_fact = get_interest_fact().lower()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
+    raise effect
+main.InterestFactException: Internal Server Error
